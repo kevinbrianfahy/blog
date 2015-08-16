@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://kevinbrianfahy.github.io/blog/atom.xml" rel="self"/>
   <link href="http://kevinbrianfahy.github.io/blog/"/>
-  <updated>2015-08-10T16:55:27-05:00</updated>
+  <updated>2015-08-16T18:10:44-05:00</updated>
   <id>http://kevinbrianfahy.github.io/blog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,6 +19,155 @@
     <updated>2015-08-10T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/10/first-post</id>
     <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eight Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/09/eighth-post/"/>
+    <updated>2015-08-09T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/09/eighth-post</id>
+    <content type="html"><![CDATA[<p>There&rsquo;s only three weeks left!</p>
+
+<p>We visited ZenDesk this week. Our class was very impressed with their layout, and they did such a great presentation of their company. First we were taken into the lounge to watch video&rsquo;s on what their company does, then we were given a full tour of all departments, with an explanation of the role each plays, and finally in one of their conference rooms for lunch four other employees came and let us ask questions. They gave us so much information about themselves, and why they do what they do. As a customer service software company, they are truly helping to turn around the negative stigma that surrounds corporate America anytime a customer has to get help with their product. It just goes to show there is no area that tech cannot transform and change in a positive, and profitable way. That was a fun visit.</p>
+
+<p>This week we have been finishing up the content for our portfolio web site. I&rsquo;ve had a lot of fun constructing each page. It&rsquo;s given us the opportunity to use some of the commands we didn&rsquo;t have to use in our basic projects, like moving an element around the screen with absolute position on the x and y axis. You also get a better appreciation CSS when you have multiple pages to work on, and the value of properly constructed and organized html is very obvious too. After all is said and done, we will look back and be very proud of our work. Everything is starting to come together now, and we&rsquo;re even learning JQuery to manipulate DOM elements. We will have a mini-project due Wednesday for that. I&rsquo;d like to alter my video on my home page somehow using JQuery.</p>
+
+<p>Next will be our group project, and before you know it, we&rsquo;ll be graduating! This has been a very intensive learning experience, and it&rsquo;s nice to be able to blog so I can look back on the chronology of what, and how, we learned. I definitely plan on continuing to blog as it serves as a great memory tool to jot down what you&rsquo;ve done, and write on how you&rsquo;ve applied this or that element, code, etc.</p>
+
+<p>I will be back to blog more on JQuery as we work on that this week!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Seventh Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/01/seventh-post/"/>
+    <updated>2015-08-01T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/01/seventh-post</id>
+    <content type="html"><![CDATA[<p>We began this week with chapter four in Eloquent JavaScript, &ldquo;Data Structures: Objects and Arrays,&rdquo; but spend most of the week doing CSS. We also did some more work on git branching, and committing. My presentation on the paradigm shift to web development went well. I&rsquo;ll be writing an article on that, specifically, soon.</p>
+
+<p>Between CodeSchool, and two projects we worked on, we did a lot with CSS this week. The selectors exercise consisted of a grid of tiny cells, 256 total, each of which had to be individually selected to alter the page, without changing any html. I found it very fun actually! I used a lot of &ldquo;nth-child(),&rdquo; linear gradients with varying degrees, some attribute selectors, borders, shading, etc. By the time I was done you could hardly recognize the grid I&rsquo;d started with. Very proud of my work.</p>
+
+<p>Zen Garden was a little simpler, and the first project we worked on, consisting of styling a pre-made Web site, again without altering the html. I made use of floats for the side bar, and a:hover for the links, changing their color when hovered over. All-in-all, a pretty nice break from the constant study of JavaScript we&rsquo;ve become accustomed to.</p>
+
+<p>I&rsquo;m doing well with the deadlines, and grades thus far. Actually, we only have four weeks left! Time goes quickly when you&rsquo;re having fun. This is a summer I&rsquo;ll never forget, one where I&rsquo;ve learned more and applied myself more than any summer ever before. Ready to start working on JavaScript objects!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Sixth Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/26/sixth-post/"/>
+    <updated>2015-07-26T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/26/sixth-post</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m presenting to the class tomorrow on &ldquo;The Paradigm Shift to Web Development.&rdquo; Fun!!! This is my main passion, the very reason I&rsquo;m interested in the web at all. It will be twenty minutes - I hope nobody is mad that it&rsquo;s too long! Basically, we&rsquo;re in the middle of an economic paradigm shift - isn&rsquo;t that exciting? It is to me. The premise is that on face value, the world changes, but whether a technology or industrial revolution, we&rsquo;re always dependent on the same patterns of networking that were established with the very first river&rsquo;s and canals in the old world economy.</p>
+
+<p>Html skeletons for our portfolio are due tomorrow. I hope I&rsquo;m not speaking out of turn, but so far it certainly seems to me that the majority of web development is CSS (aside from JavaScript of course). I was surprised to learn just how absolutely-nothing a web site is without CSS. Talk about a boring page to look at!</p>
+
+<p>Were done with chapter 3 on functions. Much more I want to review again, when it comes to recursive, closure, nesting, and so on. I love it! We&rsquo;re getting a good overall view, and my hunger to learn only increases.</p>
+
+<p>My tool set is increasing. I&rsquo;m getting sharper picks and shovels on my belt, and learning how to control current! Today I leave you with this:
+&ldquo;The basic pattern of life is a network. Whenever you see life, you see networks. The whole planet, what we can term &lsquo;Gaia&rsquo; is a network of processes involving feedback tubes. Humans are part of the larger whole, Gaia.&rdquo;
+Fritjof Capra
+<a href="http://www.azquotes.com/quote/681407">http://www.azquotes.com/quote/681407</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fifth Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/15/fifth-post/"/>
+    <updated>2015-07-15T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/15/fifth-post</id>
+    <content type="html"><![CDATA[<p>I want to take a moment in this weekly blog to give appreciation to some of the small, but valuable, things we are doing in this program. While it&rsquo;s great that we are learing the language of JavaScript, a good web developer program is not all about learning programming.</p>
+
+<p>We have been using Trello to organize and keep track of our work assignments, due dates, and progress. The trello cards work great for this type of thing, and being able to mangage this online from anywhere is invaluable, especially for those who are working online or on their computers all day! Harvest has the same online accessibility, but it tracks our hours worked, and being able to log in from anywhere to do this is great.</p>
+
+<p>This blog itself is an invaluable method of storing thoughts, and communicating with others. I&rsquo;ve like blogging in the past, and was very happy to discover that it would be required as a part of this program. When I finish this blog, I will actually push it via the command line to github, so that&rsquo;s a third industry specific tool that a good web development program uses. (We&rsquo;re storing our blog posts there for now, and are going to import them later into an actual blog site).</p>
+
+<p>Finally, we&rsquo;ve been using an abstract tool - logic problems. If you type either, &ldquo;Cut the cake logic problem&rdquo; or &ldquo;Knights and Knaves logic problem&rdquo; into google you&rsquo;ll see what they are. Suffice it to say that logic problems are a fantastic way to prime your brain to get ready to probelm solve! As I found out in &ldquo;cut the cake,&rdquo; even if you know the answer you may have trouble communicating it! So logic problems are a great tool not only to prime your brain, but also your tongue! A must tool for aspiring programmers! (I&rsquo;m still working on the Knight and the Knave).</p>
+
+<p>Between logic problems, blogging, pushing to github, using the command line, organizing with Trello, and tracking with Harvest, I am happy our program is using industry specific tools such as these to truly prepare us for working in the industry in all facets!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fourth and a Half Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/13/fourth-and-a-half-post/"/>
+    <updated>2015-07-13T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/13/fourth-and-a-half-post</id>
+    <content type="html"><![CDATA[<p>Have an appreciation for the art form!</p>
+
+<p>Some say you can&rsquo;t know where you&rsquo;re going until you know where you came from. Others remind you that understanding the whole helps you become more proficient at your individual part. Others still, would say, respect your elders, and those who came before you.</p>
+
+<p>All in all, I think we do well to realize exactly what&rsquo;s occuring under the hood in order to truly appreciate our work as web developers. Byte&rsquo;s are being transferred, files stored and retrieved, complex electronics coupled with complex programming are occuring in the web sites we develop, and the user interfaces we interact with everyday.</p>
+
+<p>When attending tech conferences that foster the exchange of ideas and communication between different branches of tech, one can really come away with a true appreciation for the work we do in this field, whatever the work may be. Such was the case at the UX conference this past weekend. There was a great array of talent, well developed ideas, and clever presentations over the two day conference here in Madison at our Overture Center. I felt privileged to be there on a free student ticket. I hope with all naiveté, as I move on from this program, into the workforce, that I will desire to pay for that ticket myself, and continue to stay engaged with such conferences. They do great things for the industry.</p>
+
+<p>I could go in depth into the presentations, the study on Generation Z understanding the floppy-disk-save icon, how more people should use svg because it uses math instead of fetching image files from the server, how Frank Lloyed Wright knows what&rsquo;s best for web design, but I think it best to simply say, &ldquo;stay in love with the art form of what you do!&rdquo; That&rsquo;s the best piece of advice, the most timeless wisdom, and one which we constantly have to remind ourselves of everyday.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Fourth Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/10/fourth-post/"/>
+    <updated>2015-07-10T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/10/fourth-post</id>
+    <content type="html"><![CDATA[<p>This week was all about completing chapter two. As such, a few things we covered had to be expounded upon in further detail in order to move forward. The charAT vs .length, and how they are used interchangably can be confusing if you don&rsquo;t first have a grasp on them individually. Setting a counter variable up against the length, you want to set the counter at zero, since the index starts at zero. As such, javascript is ready made to count the index against the length. It would be my guess that the writers of the language purposely made the length one number greater, so we wouldn&rsquo;t have to use the &lt;= and can just set it as &lt; .length.</p>
+
+<p>In learning javascript, it seems we are not exactly building programs from scratch as I thought entering this class. Turns out, the charAT(x) method is already programmed to give us the index number of a string. We&rsquo;re really building programs using ready made programs already inside of javascript, which makes it all too easy to increment a number in the place of x and have the computer fetch the letter of a string for us. And here I thought we were going to be building functions from scratch; yet the charAT method is actually a function itself. What we&rsquo;re really doing is using ready made functions to save us a little time and get us to deeper functions.</p>
+
+<p>We had a fun time learning elements and principles of design:
+  elements: line, shape, form, space, color, value, texture.
+  principles: balance, contrast, focal point, harmony, movement, repetition, proportion, variety.
+Elements are like words, and principles are like grammar. I did a fun piece using line and proportion. Was nice to take a break from the computer screen and draw!</p>
+
+<p>Finally, we used git merge to compare our worksheet answers with the correct answers. Omg, that was some tedious work to compare the two worksheets and re-save them into one!</p>
+
+<p>A busy week, and I am ready for some weekend R&amp;R!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Third Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/04/third-post/"/>
+    <updated>2015-07-04T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/04/third-post</id>
+    <content type="html"><![CDATA[<p>The language of javascript is pretty impressive. As we moved into chapter two, we got to see variables and loops in action. Functions, parameters, and arguments have their purpose, but loops using variables was the combination of math and computer science I was waiting to see.</p>
+
+<p>As I type, my browser is in an endless loop listening for my every move, waiting upon me alone. Thank you browser. And thank for me also your ancient patriarch, server, who is indeed my server, serving and waiting patiently upon me before you were even born.</p>
+
+<p>I also had fun learning control flow with conditional execution. Understanding what really runs the web: for me, that’s what learning this is all about. The user has to have a satisfying experience. In order to give them that, there must be an underlying control to the constant flow of options and decisions a user will make online. A web site is a river, and we have to execute the current.</p>
+
+<p>We capped the week off doing a Scrum exercise. Scrum is one of the software development techniques in Agile, which is a mainstream in the industry. Agile, standing for the fact that they help a company provide lightweight process frameworks for agile development of their software: low overhead, efficiency, cooperation between departments, etc. The Scrum exercise had us practicing sprints, where we sprint through the different phases of development, but in an organized, efficient, well-mannered way. Our team had a lot of fun with this exercise, and it was a good break from our computers.</p>
+
+<p>See you next week, and Happy 4th!!!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Second Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/06/26/second-post/"/>
+    <updated>2015-06-26T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/06/26/second-post</id>
+    <content type="html"><![CDATA[<p>2nd week done! We began learning javascript this week!. || &amp;&amp; ! > == PEMDAS. Comparative operators and logical operators. True and False. All important.</p>
+
+<p>We also learned quite a bit about the industry, and its' various jobs. Front end and back end devs, dev ops, full stack devs, user interface designers, and user-experience design. I am excited to go to a UX conference that we received free tickets for in July. A particular article on &ldquo;Better User Experience with Storytelling&rdquo; caught my eye. I will have to finish reading that this weekend.</p>
+
+<p>Telling a story is something every company has to do in one way or another, and I am very curious, even excited, to see how that translates into web development. At first glance, UX through storytelling seems to me to be a field that will continue to grow. Who knows, I could be a part of it.</p>
+
+<p>We also did a mood board this week. I used Pinterest. My mood is good. I am calm, serene, and only finding myself more and more as I continue following this passion in web development</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/06/19/first-post/"/>
+    <updated>2015-06-19T16:41:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/06/19/first-post</id>
+    <content type="html"><![CDATA[<h1>Week 1 YWeb</h1>
+
+<p>Wow, I really am excited about everything that has transpired this last week! A lot to learn, but a lot has been learned. Maybe I can do this afterall :-) Oh, future self, are you laughing reading that. Yes, you started out overwhelmed, don&rsquo;t you remember? Are you still overwhelmed? LOL, I hope not.</p>
+
+<p>I was watching Late Night with James Corden the other night, and he made fun of Kim Kardashian&rsquo;s letter to her future self by reading a fake one of his own from ten years ago. It was a very funny bit. Who knew that the next day I would be writing a letter to my future self! My instructor said that the message after &lsquo;git commit&rsquo; is essentially a letter to my future self. I love that explanation, and then beginning to write this blog, I realized that I was re-enacting the Corden bit. Providence? Did my higher power have this all planned out? Future self, only you know the answer&hellip;&hellip;</p>
 ]]></content>
   </entry>
   
