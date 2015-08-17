@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eight Post"
+title: "Eighth Post"
 date: 2015-08-09 16:41:28 -0500
 comments: true
 categories: 
