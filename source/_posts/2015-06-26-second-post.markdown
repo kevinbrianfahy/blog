@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Second Post"
+title: "Week 2"
 date: 2015-06-26 16:41:28 -0500
 comments: true
 categories: 

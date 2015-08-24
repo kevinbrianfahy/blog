@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Sixth Post"
+title: "Week 6"
 date: 2015-07-26 16:41:28 -0500
 comments: true
 categories: 

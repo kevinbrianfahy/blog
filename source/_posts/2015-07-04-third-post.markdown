@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Third Post"
+title: "Week 3"
 date: 2015-07-04 16:41:28 -0500
 comments: true
 categories: 

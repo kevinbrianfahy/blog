@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ninth Post"
+title: "Week 9"
 date: 2015-08-16 22:26:28 -0500
 comments: true
 categories: 

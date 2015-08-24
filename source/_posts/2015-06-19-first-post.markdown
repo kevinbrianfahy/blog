@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Post"
+title: "Week 1"
 date: 2015-06-19 16:41:28 -0500
 comments: true
 categories: 
