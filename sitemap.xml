@@ -2,19 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://kevinbrianfahy.github.io/blog/blog/2015/08/23/tenth-post/</loc>
-    <lastmod>2015-08-23T22:26:28-05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://kevinbrianfahy.github.io/blog/blog/2015/08/23/test/</loc>
-    <lastmod>2015-08-23T20:14:10-05:00</lastmod>
+    <lastmod>2015-08-23T23:26:28-05:00</lastmod>
   </url>
   <url>
     <loc>http://kevinbrianfahy.github.io/blog/blog/2015/08/16/ninth-post/</loc>
     <lastmod>2015-08-16T22:26:28-05:00</lastmod>
-  </url>
-  <url>
-    <loc>http://kevinbrianfahy.github.io/blog/blog/2015/08/10/first-post/</loc>
-    <lastmod>2015-08-10T16:41:28-05:00</lastmod>
   </url>
   <url>
     <loc>http://kevinbrianfahy.github.io/blog/blog/2015/08/09/eighth-post/</loc>
@@ -63,5 +55,8 @@
   </url>
   <url>
     <loc>http://kevinbrianfahy.github.io/blog/</loc>
+  </url>
+  <url>
+    <loc>http://kevinbrianfahy.github.io/blog/posts/2/</loc>
   </url>
 </urlset>

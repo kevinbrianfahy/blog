@@ -4,7 +4,7 @@
   <title><![CDATA[Welcome To My Blog]]></title>
   <link href="http://kevinbrianfahy.github.io/blog/atom.xml" rel="self"/>
   <link href="http://kevinbrianfahy.github.io/blog/"/>
-  <updated>2015-08-23T22:07:48-05:00</updated>
+  <updated>2015-08-23T23:37:02-05:00</updated>
   <id>http://kevinbrianfahy.github.io/blog/</id>
   <author>
     <name><![CDATA[Kevin Fahy]]></name>
@@ -14,30 +14,27 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Tenth Post]]></title>
+    <title type="html"><![CDATA[Week 10]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/23/tenth-post/"/>
-    <updated>2015-08-23T22:26:28-05:00</updated>
+    <updated>2015-08-23T23:26:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/23/tenth-post</id>
-    <content type="html"><![CDATA[<p>RailsBridge Intro to Rails
-MVC model
-The Controller handles the decisions, the Model handles the data, and the View handles the presentation. We want to try and follow this architecture and keep our code in the right places. Decision code should go in the controller, data code goes in the model, and presentation code goes in the view
-<a href="https://www.youtube.com/watch?v=eTdVkgF_Slo">https://www.youtube.com/watch?v=eTdVkgF_Slo</a></p>
+    <content type="html"><![CDATA[<p>I can&rsquo;t believe this is already the last week (coming up). Time flies.</p>
 
-<p>app is a special object that represents your entire application. You can ask it about its routes (as we just did), play with its database connections, or make pseudo-web requests against it with get or post (and lots more).</p>
+<p>We learned some Ruby on Rails this week. Quick notes:
+  MVC model
+  The Controller handles the decisions, the Model handles the data, and the View handles the presentation. We should follow this architecture and keep our code in the right places. Decision code should go in the controller, data code goes in the model, and presentation code goes in the view. <a href="https://www.youtube.com/watch?v=eTdVkgF_Slo">https://www.youtube.com/watch?v=eTdVkgF_Slo</a>
+Our class hosted a workshop that took place the day before the Ruby conference here in Madison, WI, and we made a tiny web app that is live at <a href="https://tranquil-journey-6408.herokuapp.com/.">https://tranquil-journey-6408.herokuapp.com/.</a> It was great fun to learn some basic back end!</p>
+
+<p>This next week is all about completing the class capstone, our group project. I was elected team captain by a vote from the class! We all agreed on a rather unique web site to develop. The goal is to create an open source project that helps spanish speaking people understand the etymology behind computer language tags. Seeing as all programming languages are written in English, and coding can often use idioms, it&rsquo;s fascinating to think that even experienced programmers, if from another country, may have no idea why certain tags use the letters they use. Example - the <a> for &lsquo;anchor&rsquo; tag. Clearly the use of the word, &lsquo;anchor,&rsquo; is an idiom. One who doesn&rsquo;t speak English gains very little understanding of why we use the letter &lsquo;a&rsquo; for links simply by reading a dictionary definition of the word &lsquo;anchor.&rsquo; It&rsquo;s truly a unique project, and it will be fun to see if we can truly grow it into a contributed open source work in real life. We&rsquo;ve decided to start with only HTML terminology, but the possibilities are endless.</p>
+
+<p>We also began to style our Octopress blogs. If I didn&rsquo;t mention in last week&rsquo;s blog, we imported all our saved blog posts into Octopress and now have our own live blogs! By tomorrow we are supposed to style the blog to fit in with our portfolio style, so today I downloaded and installed a theme from github, and am working on styling it as I type this. I must be growing to have installed that from the command line without being intimidated. I definitely ran into some kinks along the way too. I had to delete the ruby gemfile and re-install my gems, so I&rsquo;m even getting better at troubleshooting by researching online, although in the end a classmate who had the same issue helped me. The important thing is that I actually understand what&rsquo;s going on under the hood now with a lot of these things. The command line, github, using ruby, things aren&rsquo;t as foreign to me now.</p>
+
+<p>I really feel that I have learned a lot over these last ten weeks and am beginning to build upon a foundation. YWebCA has been great for me, and it will be sad to leave. Our graduation is six days away! This will be a busy last week not only getting our group project finished, but also putting the finishing touches on our individual portfolio&rsquo;s that we&rsquo;ve been working on for several weeks now, here and there, inbetween all our other assignments. I promise to keep blogging even after we graduate. There will be a week 11!</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[test]]></title>
-    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/23/test/"/>
-    <updated>2015-08-23T20:14:10-05:00</updated>
-    <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/23/test</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Ninth Post]]></title>
+    <title type="html"><![CDATA[Week 9]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/16/ninth-post/"/>
     <updated>2015-08-16T22:26:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/16/ninth-post</id>
@@ -52,16 +49,7 @@ The Controller handles the decisions, the Model handles the data, and the View h
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/10/first-post/"/>
-    <updated>2015-08-10T16:41:28-05:00</updated>
-    <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/10/first-post</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Eighth Post]]></title>
+    <title type="html"><![CDATA[Week 8]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/09/eighth-post/"/>
     <updated>2015-08-09T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/09/eighth-post</id>
@@ -78,7 +66,7 @@ The Controller handles the decisions, the Model handles the data, and the View h
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Seventh Post]]></title>
+    <title type="html"><![CDATA[Week 7]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/01/seventh-post/"/>
     <updated>2015-08-01T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/01/seventh-post</id>
@@ -93,7 +81,7 @@ The Controller handles the decisions, the Model handles the data, and the View h
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Sixth Post]]></title>
+    <title type="html"><![CDATA[Week 6]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/26/sixth-post/"/>
     <updated>2015-07-26T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/26/sixth-post</id>
@@ -111,7 +99,7 @@ Fritjof Capra
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Fifth Post]]></title>
+    <title type="html"><![CDATA[Week 5]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/15/fifth-post/"/>
     <updated>2015-07-15T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/15/fifth-post</id>
@@ -145,7 +133,7 @@ Fritjof Capra
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Fourth Post]]></title>
+    <title type="html"><![CDATA[Week 4]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/10/fourth-post/"/>
     <updated>2015-07-10T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/10/fourth-post</id>
@@ -165,7 +153,7 @@ Elements are like words, and principles are like grammar. I did a fun piece usin
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Third Post]]></title>
+    <title type="html"><![CDATA[Week 3]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/04/third-post/"/>
     <updated>2015-07-04T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/04/third-post</id>
@@ -182,7 +170,7 @@ Elements are like words, and principles are like grammar. I did a fun piece usin
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Second Post]]></title>
+    <title type="html"><![CDATA[Week 2]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/06/26/second-post/"/>
     <updated>2015-06-26T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/06/26/second-post</id>
@@ -197,7 +185,7 @@ Elements are like words, and principles are like grammar. I did a fun piece usin
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[First Post]]></title>
+    <title type="html"><![CDATA[Week 1]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/06/19/first-post/"/>
     <updated>2015-06-19T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/06/19/first-post</id>
