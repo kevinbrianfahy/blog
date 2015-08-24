@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Welcome To My Blog]]></title>
   <link href="http://kevinbrianfahy.github.io/blog/atom.xml" rel="self"/>
   <link href="http://kevinbrianfahy.github.io/blog/"/>
-  <updated>2015-08-23T20:10:50-05:00</updated>
+  <updated>2015-08-23T21:41:20-05:00</updated>
   <id>http://kevinbrianfahy.github.io/blog/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Kevin Fahy]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -24,6 +24,15 @@ The Controller handles the decisions, the Model handles the data, and the View h
 <a href="https://www.youtube.com/watch?v=eTdVkgF_Slo">https://www.youtube.com/watch?v=eTdVkgF_Slo</a></p>
 
 <p>app is a special object that represents your entire application. You can ask it about its routes (as we just did), play with its database connections, or make pseudo-web requests against it with get or post (and lots more).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/23/test/"/>
+    <updated>2015-08-23T20:14:10-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/23/test</id>
+    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
