@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://kevinbrianfahy.github.io/blog/atom.xml" rel="self"/>
   <link href="http://kevinbrianfahy.github.io/blog/"/>
-  <updated>2015-08-16T22:32:52-05:00</updated>
+  <updated>2015-08-23T20:03:50-05:00</updated>
   <id>http://kevinbrianfahy.github.io/blog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Tenth Post]]></title>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/23/tenth-post/"/>
+    <updated>2015-08-23T22:26:28-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/23/tenth-post</id>
+    <content type="html"><![CDATA[<p>RailsBridge Intro to Rails
+MVC model
+The Controller handles the decisions, the Model handles the data, and the View handles the presentation. We want to try and follow this architecture and keep our code in the right places. Decision code should go in the controller, data code goes in the model, and presentation code goes in the view
+<a href="https://www.youtube.com/watch?v=eTdVkgF_Slo">https://www.youtube.com/watch?v=eTdVkgF_Slo</a></p>
+
+<p>app is a special object that represents your entire application. You can ask it about its routes (as we just did), play with its database connections, or make pseudo-web requests against it with get or post (and lots more).</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ninth Post]]></title>
