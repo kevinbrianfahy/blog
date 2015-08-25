@@ -4,7 +4,7 @@
   <title><![CDATA[Welcome To My Blog]]></title>
   <link href="http://kevinbrianfahy.github.io/blog/atom.xml" rel="self"/>
   <link href="http://kevinbrianfahy.github.io/blog/"/>
-  <updated>2015-08-25T11:32:11-05:00</updated>
+  <updated>2015-08-25T11:33:47-05:00</updated>
   <id>http://kevinbrianfahy.github.io/blog/</id>
   <author>
     <name><![CDATA[Kevin Fahy]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[test]]></title>
+    <title type="html"><![CDATA[Test]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/08/24/test/"/>
     <updated>2015-08-24T23:44:59-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/08/24/test</id>
@@ -125,7 +125,7 @@ Fritjof Capra
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Fourth and a half Post]]></title>
+    <title type="html"><![CDATA[Fourth and a Half Post]]></title>
     <link href="http://kevinbrianfahy.github.io/blog/blog/2015/07/13/fourth-and-a-half-post/"/>
     <updated>2015-07-13T16:41:28-05:00</updated>
     <id>http://kevinbrianfahy.github.io/blog/blog/2015/07/13/fourth-and-a-half-post</id>
