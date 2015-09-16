@@ -1,3 +1,38 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 @import "footnote";
+
+@font-face {
+  font-family: 'ProximaNova';
+  src: url(proximaNova/ProximaNova-Reg.woff) format('woff');
+}
+html, body, header, h1, h2, h3, h4, ul, li, a, p {
+  font-family: 'ProximaNova', Arial, Helvetica;
+}
+html {
+  background: linear-gradient(0deg, #DB94FF 90%, #ffffff) !important;
+  position: relative;
+}
+html::after {
+  content: "";
+  background-image: url(dark_embroidery/dark_embroidery.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+h1 {
+  font-size: 100px;
+}
+
+body>header:after {
+  content: "";
+  opacity: 0.1;
+  z-index: -1;
+}
+
+
+.group:after,body>header:after,body>nav:after,body>footer:after,body #content>article:after,body #content>div>article:after,body #content>div>section:after,body div.pagination:after,#main:after,#content:after,.sidebar:after {content: ""; opacity:0;z-index: -1}
