@@ -10,7 +10,7 @@ html, body, header, h1, h2, h3, h4, ul, li, a, p {
   font-family: 'ProximaNova', Arial, Helvetica;
 }
 html {
-  background: linear-gradient(0deg, #DB94FF 90%, #ffffff) !important;
+  background: #DB94FF;
   position: relative;
 }
 html::after {
@@ -24,15 +24,3 @@ html::after {
   position: absolute;
   z-index: -1;
 }
-h1 {
-  font-size: 100px;
-}
-
-body>header:after {
-  content: "";
-  opacity: 0.1;
-  z-index: -1;
-}
-
-
-.group:after,body>header:after,body>nav:after,body>footer:after,body #content>article:after,body #content>div>article:after,body #content>div>section:after,body div.pagination:after,#main:after,#content:after,.sidebar:after {content: ""; opacity:0;z-index: -1}
