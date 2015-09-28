@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Cleaning Your Code Using 'This,' With 'Attr()' - Welcome To My Blog</title>
+  <meta name="author" content="Kevin Fahy">
+
+  
+  <meta name="description" content="My first post-class blog is on the gallery page I made for my portfolio website, which was one of our end-of-class final projects. We wanted a page &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://kevinbrianfahy.github.io/blog/blog/2015/09/17/gallery-plug-in/">
+  <link href="/blog/favicon.png" rel="icon">
+  <link href="/blog/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/blog/atom.xml" rel="alternate" title="Welcome To My Blog" type="application/atom+xml">
+  <script src="/blog/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/blog/javascripts/octopress.js" type="text/javascript"></script>
+  <link href='http://fonts.googleapis.com/css?family=Raleway:500|Playball|Indie+Flower' rel='stylesheet' type='text/css'>
+  
+
+</head>
+
+<body   >
+  <header role="banner"><h1>My Blog!</h1>
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/blog/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="https://www.google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="kevinbrianfahy.github.io/blog">
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul>
+	<li><a href="http://kevinbrianfahy.github.io">Portfolio</a></li>
+	<li><a href="/blog/archives">Archive</a></li>
+  <li><a href="/blog">Blog</a></li>
+</ul>
+<!--
+/blog = kevinbrianfahy.github.io/blog
+-->  
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Cleaning Your Code Using 'This,' With 'Attr()'</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-09-17T18:13:39-05:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:13 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>My first post-class blog is on the gallery page I made for my portfolio website, which was one of our end-of-class final projects. We wanted a page to show the projects we&rsquo;d worked on in class, and demonstrate the things we&rsquo;d learned so far. As a total newbie in programming, I was very proud with what I came up with for my gallery page. Start simple: show a small picture of each project, have a description for each image, and make each image link to the actual project. Use a &lsquo;ul&rsquo; and have each &lsquo;li&rsquo; contain an &lsquo;a&rsquo; with an &lsquo;img&rsquo; inside the &lsquo;a&rsquo;. Great, but beginner or not, I couldn&rsquo;t leave the page this simple! We&rsquo;d learned some Jquery, so I figured out how to have css hide each description and use Jquery to have each description slide onto the page when it&rsquo;s corresponding image was hovered over. While I was at it, I used the css pseudo-class &lsquo;:hover&rsquo; with the &lsquo;img&rsquo; selector, <code>img:hover</code>, and <code>{transform: scale(1.5), transition: .75s}</code> to have each image get larger in view while it was being hovered over, and while the description was sliding in from the bottom.</p>
+
+<p style='margin:0'>
+Often in programming, the valuable lessons are not in learning how to get the computer to do something. That's just a matter of memorizing commands and letting the magic work: copy-and-paste magic, if you will. It's just 'mouseenter','mouseleave', 'show', and 'animate': 
+<pre style='margin:0 0 0 10%;padding:0 0 0 5%; color:purple; background: #B2B2B2; font-weight: bold;'>
+$('#id of image').on({mouseenter: function() { 
+  $('#id of description').show().animate({'right': '10%'}, 1500);
+  },
+  mouseleave: function() {
+  $('#id of description').animate({'right': '-100%'});
+  }
+});
+</pre>
+</p>
+
+
+<p style='margin:default'>
+One valuable lesson, maybe the first for a beginner, is using your knowledge of programming to clean your code. Clean code does not repeat itself, and we use the acronym DRY, for Don't Repeat Yourself. Can you imagine how horrible it would be to read a book by an author who constantly repeats himself over and over? Take the above code, for example. I have to repeat that entire code for every single image and description in my gallery. That's just bad programming. There should be a way to write the code so that it performs this function for every image the user hovers over, without having to re-write it each time. 
+</p>
+
+
+<p style='margin:default'>
+We start with the first line, and change '#id of image' to it's parent, 'ul img.' <code>$('ul img').on({mouseenter: function() {</code> That should activate the mouseenter function for every li image hovered over in the ul. Jquery's "$('ul img')" takes all the image tags in the ul and puts them in an array. It is the same as JavaScripts's "document.querySelectorAll('ul img')". 
+</p>
+
+
+<p style='margin:0'>
+For the next step, usually, you would think of if/else conditionals in such situations, since we often use conditionals when looping over arrays: if the mouse hovers over $('ul img')[0], then show the description that matches, if the mouse hovers over $('ul img')[1], then show the matching description. What would your if-conditional statement be? If ul img == ul img[0]?? That doesn't work. The array will never be equal to an element inside of it. Remember, in JavaScript, an array is an object. "When a function is called as a method of an object, its 'this' is set to the object the method is called on." <a style='color:purple'>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this</a>. The first part of this statement - "When a function is called as a method of an object," - is exactly what's happening when you code "$('ul img').on()". "$('ul img')" is a JavaScript object. (You need to understand the DOM API to understand why html tags are JavaScript objects.) If you recall, methods are object properties whose value is a function. ".on()" is a method of the "$('ul img')" object. When you are using the mouseenter function on several li items, 'this' will tell the program to focus only on the li being hovered over by the mouse. Now my code can look like:
+<pre style='margin:0 0 0 10%;padding:0 0 0 5%; color:purple; background: #B2B2B2; font-weight: bold;'>
+$('#id-of-ul img').on({mouseenter: function() {
+    if (this == $('#projects img')[0])
+        $('#id of description').show().animate({'right': '10%'}, 1500);
+    if (this == $('#projects img')[1])
+        $('#id of description').show().animate({'right': '10%'}, 1500);
+    if (this == $('#projects img')[2])
+        $('#id of description').show().animate({'right': '10%'}, 1500);
+    }
+});
+</pre>
+</p>
+
+
+<p style='margin:0'>
+ The obvious problem is that writing a conditional for every situation doesn't help us shrink our code anymore than if we just re-wrote the function for each item, as we did in the beginning. If I'm not re-writing code for each li item, and I'm not using if/else conditionals for the same reason (DRY), then how do I code which description div to show when the mouse hovers over the image? This is a perfect example problem for a beginner on proper use of html attributes for coding purposes, taking their programming skill out of the copy-and-paste magic into their first bit of original programming. The id attribute in html 5 was essentially created for Javascript, and was meant to be retrieved by Javascript for the very purpose of selecting elements. The class attribute should be used for css, but certainly can be used in Javascript if necessary. You'll notice the id atttributes of the image and it's corresponding description are almost exactly the same, obviously, because the one is for the other. Essentially, the id for the description that you need to show is already contained in the id attribute for the image. The difference can be as small as a dash, '-'. So as long as we retrieve our id attribute value from the li and store it in a variable, simple string concatenation gets us our id for the description by adding a '-d' to the variable. Now we have a variable that changes depending on what is being hovered over, and we can write our code like this:
+ <pre style='margin:0 0 0 10%;padding:0 0 0 5%; color:purple; background: #B2B2B2; font-weight: bold;'>
+$('#id-of-ul img').on({mouseenter: function() { 
+    var description = $(this).attr('id') + '-d';
+    $('#' + description).show().animate({'right': '10%'}, 1500);
+    },
+    mouseleave: function() {
+    var description = $(this).attr('id') + '-d';
+    $('#' + description).animate({'right': '-100%'});
+    }
+});
+</pre>
+Finally, we are DRY!
+</p>
+
+
+<p style='margin:0'>
+"This", coupled with the "attr()" method, prevents us from having to specify each li tag, either by writing a mouseenter function for each one, "$('#id of image')", or using if/else conditionals with "$('ul img')[0]", "$('ul img')[1]", and "$('ul img')[2]." They make our code DRY. They also allow us to write a dynamically altered code, i.e. we dont' have to add to the code everytime we change or add to our list of images and descriptions. 
+</p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Kevin Fahy</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-09-17T18:13:39-05:00'><span class='date'><span class='date-month'>Sep</span> <span class='date-day'>17</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:13 pm</span></time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://kevinbrianfahy.github.io/blog/blog/2015/09/17/gallery-plug-in/" data-via="" data-counturl="http://kevinbrianfahy.github.io/blog/blog/2015/09/17/gallery-plug-in/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/blog/2015/08/30/week-11/" title="Previous Post: Week 11">&laquo; Week 11</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/blog/2015/09/17/gallery-plug-in/">Cleaning Your Code Using 'This,' With 'Attr()'</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/blog/2015/08/30/week-11/">Week 11</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/blog/2015/08/23/tenth-post/">Week 10</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/blog/2015/08/16/ninth-post/">Week 9</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/blog/2015/08/09/eighth-post/">Week 8</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo">Copyright &copy; 2015
+
+    Kevin Fahy
+
+<br>
+Powered by Octopress.
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+</body>
+</html>
