@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Week 11"
+date: 2015-08-30 13:44:19 -0500
+comments: true
+categories: 
+---
+
+Wow. Officially done. Graduated. Seems strange to say, even to think about how much we covered in such a short time. Prior to this class, I literally knew nothing about computer programming, and now I've built my own portfolio website, and started an open source project on github. Amazing.
+
+I will be placed in an internship with a tech company, and by all means I want employment, but at the same time I want to be involved in the industry as a whole. There is so much changing in tech, and changing so fast, it is doubtful I can learn all I want to with only one company. For this reason, I look forward to staying networked with YwebCA. Adorable.io, and YWCA have partnered to create something never done before, and I am very curious to see how far it can go, and where it will lead for all involved. I've been proud to be a part of it. The graduation was awesome. We even had a Madison Alderperson attend, as the keynote speaker.
+
+YwebCA is different. They feel strongly about their students beginning blogs, despite knowing nothing. We began our blogs immediately in week one. Blogs being so important to aspiring developers, the thought of the YwebCA is to immediately install the important habit of organizing your learning and knowledge into translatable words on a page.  Indeed, many who become great programmers find it almost too late to develop this habit. They become the stereotypical isolated programmer, and find they have to go back and re-learn how to communicate. This wastes valuable time and many possible job opportunities if they already had a blog up and running, and had for years practiced the valuable habit of translating their learning into a blog.
+
+I've taken to this naturally, as I already liked to write, and I have the small hope that my blogs can yet be beneficial for future students. There may even be a market for such a beginner blog, as many who want to get into programming try to learn online and find themselves overwhelmed and unable to self-learn. For all of these reasons, I am excited to continue my blog, and hope you enjoy reading! 
