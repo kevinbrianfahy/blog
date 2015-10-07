@@ -4,7 +4,7 @@
   <title><![CDATA[Welcome To My Blog]]></title>
   <link href="http://kevinbrianfahy.github.io/blog/atom.xml" rel="self"/>
   <link href="http://kevinbrianfahy.github.io/blog/"/>
-  <updated>2015-10-07T17:04:21-05:00</updated>
+  <updated>2015-10-07T17:17:01-05:00</updated>
   <id>http://kevinbrianfahy.github.io/blog/</id>
   <author>
     <name><![CDATA[Kevin Fahy]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Retrieving User Information With JavaScript]]></title>
-    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/09/28/Retrieving-User-Information/"/>
-    <updated>2015-09-28T16:45:25-05:00</updated>
-    <id>http://kevinbrianfahy.github.io/blog/blog/2015/09/28/Retrieving-User-Information</id>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/10/07/Retrieving-User-Information/"/>
+    <updated>2015-10-07T16:45:25-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/10/07/Retrieving-User-Information</id>
     <content type="html"><![CDATA[<p>Our bootcamp got to the point of understanding objects. Starting at ground zero, we learned operators, variables, conditionals, functions, and left off on objects. I could immediately see the importance of an object in programming. I mean, you can store anything in there, and save it all to one single object! I&rsquo;m not sure if it was on purpose to get us right up to learning objects, but it proves to be a good place to end an intensive crash course, because once you understand objects, you can spread your wings and fly into the wide world of object-oriented programming, which is especially central in web development, and much of programming altogether.</p>
 
 <p>An eleven-week bootcamp can only get you so far. The downside was that we only learned core JavaScript, and never learned any client-side JavaScript. (I don&rsquo;t count learning Jquery because it was just magic to us). To help in my continued learning, I purchased &ldquo;JavaScript, the Definitive Guide, 6th Edition&rdquo; by David Flanagan, published by O'Reilly Media. It&rsquo;s a fantastic book. To be honest, I much prefer it to the book we used in my bootcamp, because it addresses the issue of object-oriented programming upfront. &ldquo;JavaScript is an object-oriented language, but it is quite different than most&rdquo; p. 8. That immediately cleared up confusion some of us had in class as to whether or not JavaScript was officially an object-oriented language. &ldquo;JavaScripts fundamental datatype is the object&hellip;.JavaScript objects are dynamic - properties can usually be added and deleted - but they can be used to simulate the static objects and &lsquo;structs&rsquo; of statically typed languages&hellip;.and are manipulated by reference rather than by value&rdquo; (p 115). As a matter of fact, I was surprised to learn the function is actually an object type! (p 30) In JavaScript, ANYTHING that is not a number, string, boolean, null, or undefined is an object type. (p 29) This allows functions to be passed, manipulated, have properties set to them, invoke methods on them, just as objects. (p 163)</p>
@@ -46,9 +46,9 @@
   
   <entry>
     <title type="html"><![CDATA[Cleaning Your Code Using 'This,' With 'Attr()']]></title>
-    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/09/17/gallery-plug-in/"/>
-    <updated>2015-09-17T18:13:39-05:00</updated>
-    <id>http://kevinbrianfahy.github.io/blog/blog/2015/09/17/gallery-plug-in</id>
+    <link href="http://kevinbrianfahy.github.io/blog/blog/2015/09/28/gallery-plug-in/"/>
+    <updated>2015-09-28T18:13:39-05:00</updated>
+    <id>http://kevinbrianfahy.github.io/blog/blog/2015/09/28/gallery-plug-in</id>
     <content type="html"><![CDATA[<p>My first post-class blog is on the gallery page I made for my portfolio website, which was one of our end-of-class final projects. We wanted a page to show the projects we&rsquo;d worked on in class, and demonstrate the things we&rsquo;d learned so far. As a total newbie in programming, I was very proud with what I came up with for my gallery page. Start simple: show a small picture of each project, have a description for each image, and make each image link to the actual project. Use a &lsquo;ul&rsquo; and have each &lsquo;li&rsquo; contain an &lsquo;a&rsquo; with an &lsquo;img&rsquo; inside the &lsquo;a&rsquo;. Great, but beginner or not, I couldn&rsquo;t leave the page this simple! We&rsquo;d learned some Jquery, so I figured out how to have css hide each description and use Jquery to have each description slide onto the page when it&rsquo;s corresponding image was hovered over. While I was at it, I used the css pseudo-class &lsquo;:hover&rsquo; with the &lsquo;img&rsquo; selector, <code>img:hover</code>, and <code>{transform: scale(1.5), transition: .75s}</code> to have each image get larger in view while it was being hovered over, and while the description was sliding in from the bottom.</p>
 
 <p style='margin:0'>
