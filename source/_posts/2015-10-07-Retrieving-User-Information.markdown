@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Retrieving User Information With JavaScript"
-date: 2015-09-28 16:45:25 -0500
+date: 2015-10-07 16:45:25 -0500
 comments: true
 categories: 
 ---

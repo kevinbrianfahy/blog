@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cleaning Your Code Using 'this,' With 'attr()'"
-date: 2015-09-17 18:13:39 -0500
+date: 2015-09-28 18:13:39 -0500
 comments: true
 categories: 
 ---
