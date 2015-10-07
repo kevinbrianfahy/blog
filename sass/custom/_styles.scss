@@ -24,3 +24,10 @@ html::after {
   position: absolute;
   z-index: -1;
 }
+
+h1 {
+font-size: 2em;
+}
+article h1 {
+  font-size: 1em;
+}
