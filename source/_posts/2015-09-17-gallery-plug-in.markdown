@@ -53,8 +53,24 @@ $('#id-of-ul img').on({mouseenter: function() {
     }
 });
 </pre>
-Finally, we are DRY!
+Finally, we are DRY! You'll notice there is one last line of duplication, "var description: = $(this).attr('id') + '-d'." This is still DRY code even with that duplication, because there is no way around it. Unfortunately, because the value of the variable "description" is "$(this)", you cannot save the variable in the global environment. If you try, the value of the variable simply comes back undefined. I do hate having to write that line twice, but it is succinct nonetheless. 
+</p>
+<p style='margin:default'>
+"This", coupled with the "attr()" method, prevents us from having to specify each li tag, either by writing a mouseenter function for each one, "$('#id of image')", or using if/else conditionals with "$('ul img')[0]", "$('ul img')[1]", and "$('ul img')[2]." They make our code DRY. They also allow us to write a dynamically altered code, i.e. we dont' have to add to the code everytime we change or add to our list of images and descriptions. 
 </p>
 <p style='margin:0'>
-"This", coupled with the "attr()" method, prevents us from having to specify each li tag, either by writing a mouseenter function for each one, "$('#id of image')", or using if/else conditionals with "$('ul img')[0]", "$('ul img')[1]", and "$('ul img')[2]." They make our code DRY. They also allow us to write a dynamically altered code, i.e. we dont' have to add to the code everytime we change or add to our list of images and descriptions. 
+p.s. here is the code using pure JavaScript (without animation):
+<pre style='margin:0 0 0 10%;padding:0 0 0 5%; color:purple; background: #B2B2B2; font-weight: bold;'>
+var projects = document.querySelectorAll('#projects img');
+    for (var i=0; i < projects.length; i++) {
+        projects[i].addEventListener('mouseenter', function() {
+        var description = this.id + '-d';
+        document.getElementById(description).style.display = 'block';
+        })
+        projects[i].addEventListener('mouseleave', function() {
+        var description = this.id + '-d';
+        document.getElementById(description).style.display = 'none';
+        })
+    }
+</pre>
 </p>
